@@ -8,3 +8,6 @@ git diff 用于比较工作区和暂存区之间或提交的最新版本之间�
 git reset HEAD <file> 用于将暂存区的修改撤销，将指定文件 (`<file>`) 从暂存区退回到工作区，不影响工作区的文件内容。
 git checkout --file 丢弃工作区对指定文件 (`file`) 的修改，并将其恢复为最后一次提交的状态。相当于撤销工作区的修改并还原到最近提交状态。
 git log --oneline  是Git命令的一个选项，用于查看提交历史的简洁信息,Git会以一行的简洁方式显示提交历史，每个提交记录只显示一个简短的哈希值和提交信息。
+git checkout -b feature_a
+git branch
+git checkout master
